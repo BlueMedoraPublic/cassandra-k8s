@@ -6,7 +6,7 @@ for all clusters (Bare Metal, EKS, GKE, AKS, PKS, etc)
 
 ## Problem
 
-By default, when deploying a Cassandra StatefulSet to GKE, you
+By default, when deploying a Cassandra StatefulSet, you
 will have a K8s service with ports 9042 and 9160. JMX 7199
 is not exposed at the service because Cassandra's JMX defaults
 to Localhost only.
