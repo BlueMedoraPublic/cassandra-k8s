@@ -20,6 +20,7 @@ spec:
    - name: jmx
      port: 7199
      protocol: TCP
+     targetPort: 7199
   selector:
     app: cassandra
 ---
